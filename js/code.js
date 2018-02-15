@@ -30,7 +30,7 @@
   };
 
   $inputNode.on('keyup change',function() {
-    getAlumnos( $( this ).val() );
+    getAlumnos( $( this ).val().toLowerCase() );
   });
 
   getAlumnos();
