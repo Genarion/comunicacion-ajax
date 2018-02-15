@@ -1,0 +1,5 @@
+1.¿Cómo se trata el envío de una parámetro a php?.Indica todos los pasos (html, javascript, php)
+Se realiza una petición GET al endpoint del servidor pasandole por parametro el atributo name con el valor recogido del input en HTML y en el servidor si recibe un parametro filtra los datos y devuelve solo los que coinciden, si no devolvera toda la colección.
+
+2.Atributo donde se recibe la respuesta
+En data con formato JSON {'alumnos':[{'nombre':'mario','apellidos':'ferrer nieto'}]}

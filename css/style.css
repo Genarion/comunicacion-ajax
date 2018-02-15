@@ -1,0 +1,38 @@
+p{
+  margin: 0;
+}
+input[type="text"]{
+  width: 20%;
+}
+.table-header{
+  margin: 20px 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 25% 25%;
+}
+
+.row{
+  width: 50%;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 50% 50%;
+}
+.row:nth-child(2n){
+  background-color: #cacaca;
+}
+.row:nth-child(2n+1){
+  background-color: #b2aeae;
+}
+.row:hover {
+    background-color: #57575780;
+    box-shadow: inset 0px 0px 6px #615f5f;
+}
+.row p{
+  cursor: pointer;
+}
+
+.alert{
+  color: red;
+}
